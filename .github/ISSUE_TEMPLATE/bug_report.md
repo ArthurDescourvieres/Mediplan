@@ -1,36 +1,17 @@
 ---
-name: Bug Report
-about: Signaler un comportement inattendu ou une anomalie
-title: "[BUG] "
-labels: bug
-assignees: ''
+name: Bug report
+about: Signaler un comportement inattendu
 ---
 
-## Description du bug
+**Description du bug**
+(Décris ce qui se passe)
 
-<!-- Décrivez clairement et précisément le problème rencontré. -->
-
-## Étapes pour reproduire
-
+**Étapes pour reproduire**
 1. 
 2. 
-3. 
 
-## Comportement attendu
+**Comportement attendu**
+(Ce qui devrait se passer)
 
-<!-- Que devrait-il se passer normalement ? -->
-
-## Comportement observé
-
-<!-- Que s'est-il passé à la place ? -->
-
-## Environnement
-
-- **OS** : 
-- **Navigateur / version** : 
-- **Version de l'application** : 
-- **Environnement** (dev / staging / prod) : 
-
-## Captures d'écran / logs
-
-<!-- Joindre toute capture d'écran ou extrait de log utile. -->
+**Environnement**
+(OS, navigateur, version...)
