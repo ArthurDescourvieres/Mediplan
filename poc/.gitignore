@@ -1,0 +1,11 @@
+# Dépendances installées par npm (régénérables via `npm install`)
+node_modules/
+
+# Secrets — la clé de chiffrement et l'URL de connexion ne doivent JAMAIS partir sur Git (EBIOS R1)
+.env
+
+# Sortie de compilation TypeScript (régénérable via `tsc`)
+dist/
+
+# Logs npm éventuels
+npm-debug.log*
