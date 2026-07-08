@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2022",        // Node 18+ supporte ES2022
+    "module": "commonjs",      // cohérent avec "type": "commonjs" du package.json
+    "rootDir": "./src",        // nos fichiers .ts vivent dans src/
+    "outDir": "./dist",        // le JS compilé va dans dist/ (ignoré par Git)
+    "types": ["node"],         // active les types Node (crypto, process, Buffer...)
+    "strict": true,            // mode strict : attrape les erreurs tôt (bonne pratique)
+    "esModuleInterop": true,   // imports plus simples (import x from 'y')
+    "skipLibCheck": true,      // ne vérifie pas les types des libs (compile plus vite)
+    "forceConsistentCasingInFileNames": true
+  }
+}
